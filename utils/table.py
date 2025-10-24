@@ -58,4 +58,3 @@ class Table:
 
     def __str__(self):
         return f"Table {self.number} (Capacity : {self.capacity} | Free spots : {self.left_capacity()})"
-
