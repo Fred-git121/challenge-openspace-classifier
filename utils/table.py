@@ -32,9 +32,9 @@ import itertools
 class Table:
     _ids = itertools.count(1)
 
-    def __init__(self, capacity: int) -> None:
+    def __init__(self) -> None:
         self.number = next(Table._ids)
-        self.capacity = capacity
+        self.capacity = 4
         self.seats = [Seat() for _ in range(self.capacity)]
 
     def has_free_spot(self) -> bool:

@@ -1,5 +1,6 @@
 from utils.file_utils import read_names_from_csv
 from utils.openspace import Openspace
+from utils.table import Table
 
 def main():
     input_filepath = "new_colleagues.csv"
